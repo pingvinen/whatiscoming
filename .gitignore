@@ -3,3 +3,4 @@ src/whatiscoming/.idea/tasks.xml
 src/whatiscoming/vendor/
 src/whatiscoming/config/config.php
 src/whatiscoming/local/
+src/whatiscoming/dist/
