@@ -1,0 +1,7 @@
+body{background-color:#003248;font-family:verdana,arial,helvetica,sans-serif;color:#ccc;font-size:1.5em}
+h1{font-size:3em;font-weight:bold}
+h2{font-size:2em;font-weight:bold}
+h3{font-size:1.5em;font-weight:bold}
+.color-darkgreen{color:#38b567}
+@media print{#header{display:none}}.card ul{list-style-type:none;padding-left:0}.card ul li{padding:.3em}
+.card ul li:hover{background-color:#00abdb;color:#003248}

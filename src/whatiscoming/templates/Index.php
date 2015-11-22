@@ -8,10 +8,12 @@
 	<div id="index">
 		<?php foreach($model->getCards()->getIterator() as $card): ?>
 			<div class="card">
-				<strong><?php echo $card->getName() ?></strong><br>
+				<strong><?php echo $card->getName() ?></strong>
+				<ul>
 				<?php foreach($card->getDepartures()->getIterator() as $dep): ?>
-					[<?php echo $dep->getTime() ?>] <?php echo $dep->getName() ?> (<?php echo $dep->getDirection() ?>) <small><?php echo $dep->getStop() ?></small><br>
+					<li>[<?php echo $dep->getTime() ?>] <?php echo $dep->getName() ?> (<?php echo $dep->getDirection() ?>) <small><?php echo $dep->getStop() ?></small></li>
 				<?php endforeach; ?>
+				</ul>
 			</div>
 		<?php endforeach; ?>
 	</div>
